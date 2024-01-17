@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Modak&display=swap');
+  
+:root {
+    --forest: #344036;
+    --sand: #FBEAD1;
+    --black: #030302;
+    --blue: #91A3E0;
+    --yellow: #DFDD51;
+    --salmon: #BE545D;
+  }
+
+
+body{
+    color: var(--black);
+    background-color: var(--sand);
+    font-family: "fira sans", sans-serif;
+    font-size: 50px;
+}
+h1{
+    font-family: "fira sans", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin: 30px;
+    padding: 0;
+}
+
+
+p{
+    font-family: "fira sans", sans-serif;
+    font-size: 100px;
+    text-align: left;
+    font-weight: 200;
+    margin: 00px 130px 50px 130px;
+    padding: 0;
+    line-height: 1.5;
+}
+
+span{
+    font-family: modak, sans-serif;
+    font-size: 100px;
+    margin: 0px;
+    padding: 0;
+    color: var(--salmon);
+}
+
+nav{
+    font-family: "modak", sans-serif;
+    font-size: 35px;
+    text-align: right;
+    margin: 30px;
+    margin-bottom: 0px;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: var(--blue);
+    margin: 0px 30px 0px 0px;
+    padding: 0;
+}
