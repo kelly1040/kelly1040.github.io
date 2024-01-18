@@ -2,7 +2,7 @@
   
 :root {
     --forest: #344036;
-    --sand: #FBEAD1;
+    --sand: #fbfaf3;
     --black: #030302;
     --blue: #91A3E0;
     --yellow: #DFDD51;
@@ -30,17 +30,28 @@ h1{
     display: flex;
     flex-shrink: 1;
     flex-direction: column;
+    margin-bottom: 2%;
 }
-
+footer p{
+    font-family: "fira sans", sans-serif;
+    font-size: 1.5vw;
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 2%;
+    padding: 0;
+    color: var(--forest);
+}
 p{
     font-family: "fira sans", sans-serif;
-    font-size: 7vw;
+    font-size: 5vw;
     text-align: left;
-    font-weight: 200;
-    margin: 0vw 10vw 5vw 10vw;
+    font-weight: 100;
+    margin: 0vw 10vw 2vw 10vw;
     padding: 0;
     line-height: 1.5;
 }
+
+
 
 span{
     font-family: modak, sans-serif;
@@ -52,11 +63,15 @@ span{
 
 nav{
     font-family: "modak", sans-serif;
-    font-size: 35px;
+    font-size: 2vw;
     text-align: right;
     margin: 30px;
     margin-bottom: 0px;
     padding: 0;
+    display: flex;
+    justify-content: flex-end;
+
+    flex-wrap: nowrap;
 }
 a{
     text-decoration: none;
