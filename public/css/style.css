@@ -2,11 +2,17 @@
   
 :root {
     --forest: #344036;
-    --sand: #fbfaf3;
+    --sand: #F2E0CF;
     --black: #030302;
     --blue: #91A3E0;
     --yellow: #DFDD51;
     --salmon: #BE545D;
+    
+    --dun: #CCB8ABff;
+    --battleship-gray: #95907Eff;
+    --khaki: #ABA799ff;
+    --smoky-black: #171411ff;
+    --caf-noir: #573723ff;
   }
 
 
