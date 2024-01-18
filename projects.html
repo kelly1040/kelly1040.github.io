@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/css/style.css">
+    <title>Kelly Huang</title>
+</head>
+<body onload="typeWriter()">
+    <nav>
+        <a href="about.html">About</a>       
+        <a href="https://www.linkedin.com/in/kelly-keyin-huang/">LinkedIn</a>
+        <a href="https://github.com/kelly1040">GitHub</a>
+        <a href="">Resume</a>
+        <a href="projects.html">Projects</a>
+    </nav>
+    <div class="name">
+    <h1>Hi! I'm Kelly.</h1>
+    </div>
+    <div class="container">
+        <h2>I'm currently <span class="current"></span></h2>
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+    var typed = new Typed('.current', {
+      strings: ['^1000 reading The Plantagenets', '^1000 learning Ruby', '^1000 taking Operating Systems', 
+      '^1000 climbing V3 at the Hub Climbing', '^1000 drinking El Pariso Lychee from Hatch'],
+      typeSpeed: 100,
+      backspeed: 50,
+      loop: true
+    });
+    </script>
+
+</body>
