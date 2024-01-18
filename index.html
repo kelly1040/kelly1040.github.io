@@ -6,33 +6,28 @@
     <link rel="stylesheet" href="public/css/style.css">
     <title>Kelly Huang</title>
 </head>
-<body>
+<body onload="typeWriter()">
     <nav>
-        <a href="index.html">About</a>       
+        <a href="about.html">About</a>       
         <a href="https://www.linkedin.com/in/kelly-keyin-huang/">LinkedIn</a>
         <a href="https://github.com/kelly1040">GitHub</a>
         <a href="">Resume</a>
-        <a href="">Fun and Projects</a>
+        <a href="projects.html">Projects</a>
     </nav>
-    <div class="intro">
-    <p>
-        <span>Hey There!</span>
-    </p>
-    <p>
-        I'm <span>Kelly</span>, a former <span>chemical engineer</span> transitioning into the field of <span>Computer Science</span>. 
-        Currently, I'm navigating the complexities of coding while managing a <span>café</span>, fueled by my genuine love for <span>coffee</span>.
-    </p>
-    <p>
-        When not immersed in the digital realm, I enjoy <span>bouldering</span>  at the local gym, 
-        seeking the same thrill offline as I do online.
-    </p>
-    <p>
-        Join me in exploring the convergence of <span>tech, coffee, and climbing</span>. 
-        Here's to a future filled with possibilities and coding adventures! 
-    </p>
+    <div class="name"><h1>Hi! I'm Kelly.</h1></div>
+    <div class="container">
+        <h2>I'm currently <span class="current"></span></h2>
     </div>
-    <footer>
-        <p>© 2023 Kelly Huang</p>
-    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+    var typed = new Typed('.current', {
+      strings: ['^1000 reading The Plantagenets', '^1000 learning Ruby', '^1000 taking Operating Systems', 
+      '^1000 climbing V3 at the Hub Climbing', '^1000 drinking El Pariso Lychee from Hatch'],
+      typeSpeed: 100,
+      backspeed: 100,
+      loop: true
+    });
+    </script>
 </body>
-</html>
