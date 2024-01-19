@@ -4,21 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="public/css/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="public/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="public/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="public/images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
     <title>Kelly Huang</title>
 </head>
 <body onload="typeWriter()">
     <nav>
-        <a href="about.html">About</a>       
-        <a href="https://www.linkedin.com/in/kelly-keyin-huang/">LinkedIn</a>
-        <a href="https://github.com/kelly1040">GitHub</a>
-        <a href="">Resume</a>
-        <a href="projects.html">Projects</a>
+        <a href="index.html">K</a>
+        <div class="right">
+            <a href="about.html">About</a>       
+            <a href="https://www.linkedin.com/in/kelly-keyin-huang/">LinkedIn</a>
+            <a href="https://github.com/kelly1040">GitHub</a>
+            <a href="">Resume</a>
+            <a href="projects.html">Projects</a>
+        </div>
     </nav>
     <div class="name"><h1>Hi! I'm <span>Kelly</span></h1></div>
     <div class="container">
         <h2>I'm currently <span class="current"></span></h2>
     </div>
 
+    <!--modified from https://github.com/mattboldt/typed.js/-->
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
     <script>
@@ -30,4 +38,7 @@
       loop: true
     });
     </script>
+        <footer>
+            <p>© 2023 Kelly Huang</p>
+        </footer>
 </body>
