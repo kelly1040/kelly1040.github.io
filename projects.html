@@ -21,6 +21,72 @@
             <a href="projects.html">Projects</a>
         </div>
     </nav>
+    <div class="project-container">
+        <div class="project-description">
+            <h2>Project 1: Coffee Shop</h2>
+            <p>
+                <ul>
+                    <li>Collaborated as a team of two to create a web-based café management system</li>
+                    <li>Used Node.js and Express to provide CRUD functionality to communicate with a MySQL database to manage products, 
+                        recipes, stock inventory and suppliers, as well as customer info and order details</li>
+                    <li>Utilized JS, CSS, and handlebars to implement an easy-to-use frontend</li>
+                    <li>Created a database system that handled multiple M:M relations, utilized dynamic dropdowns to improve user experience</li>
+                </ul>
+            </p>
+            <p>
+                <span>Tools:</span> HTML, CSS, JavaScript, Express, Node.js, MySQL, Handlebars
+            </p>
+        </div>
+        <div class="gallery">
+            <div class="slides">
+                <div class="numbertext">1 / 6</div>
+                <img src="public/images/cafe_schema.png" style="width:100%">
+                <div class="text">Database Schema</div>
+            </div>
+            <div class="slides">
+                <div class="numbertext">2 / 6</div>
+                <img src="public/images/cafe_ERD.png" style="width:100%">
+                <div class="text">Database ERD</div>
+            </div>
+            <div class="slides">
+                <div class="numbertext">3 / 6</div>
+                <img src="public/images/cafe_home.png" style="width:100%">
+                <div class="text">Homepage</div>
+            </div>
+            <div class="slides">
+                <div class="numbertext">4 / 6</div>
+                <img src="public/images/cafe_pictures.png" style="width:100%">
+                <div class="text">Product page with CRUD operations</div>
+            </div>
+            <div class="slides">
+                <div class="numbertext">5 / 6</div>
+                <img src="public/images/cafe_ingredientdropdown.png" style="width:100%">
+                <div class="text">M:M relationships with dynamic dropdowns</div>
+            </div>
+            <div class="slides">
+                <div class="numbertext">6 / 6</div>
+                <img src="public/images/cafe_table.png" style="width:100%">
+                <div class="text">Tables concatonate order details</div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <!-- The dots/circles -->
+            <div class="dots" style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+            </div>
+        </div>
+      <br>
+    
+      <script src="gallery.js"></script>
+        </div>
+    </div>
+
 
     <footer>
         <p>© 2023 Kelly Huang</p>
